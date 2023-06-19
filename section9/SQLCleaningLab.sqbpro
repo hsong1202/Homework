@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/hsong/Code/SavvyCoders/dap-curriculum/Section09/resources/SQLCleaningLab.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="75"/><column_width id="3" width="1051"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,6:mainevCars"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1">-- Update evCars
+-- SET PriceEuro =  Round(PriceEuro*1.09,2)
+-- 
+-- SELECT RTRIM(Efficiency, 'Wh/km'),Efficiency, RTRIM(FastCharge, 'km/h'),FastCharge
+-- FROM evCars
+-- 
+-- SELECT Round(FastCharge * 0.621371, 1) AS OneHourFastChargeMiles
+-- FROM evCars
+-- -- 
+-- UPDATE evCars
+-- SET 
+-- PowerTrain = 'AWD'
+-- WHERE PowerTrain = &quot;All Wheel Drive&quot;
+-- PowerTrain = 'RWD'
+-- WHERE PowerTrain = &quot;Rear Wheel Drive&quot;
+-- PowerTrain = 'FWD'
+-- WHERE PowerTrain = &quot;Front Wheel Drive&quot;
+-- 
+-- SELECT PowerTrain, count(*)
+-- FROM evCars
+-- GROUP BY PowerTrain
+
+-- SELECT PriceEuro, Round(PriceEuro*1.09,2) as PriceUSD
+-- FROM evCars
+-- 
+
+Select PriceEuro
+
+-- ALTER TABLE evCars
+-- RENAME PriceEuro to PriceUSD</sql><current_tab id="0"/></tab_sql></sqlb_project>
